@@ -4,7 +4,67 @@
 /* font-family: "Atkinson Hyperlegible Next",
 sans-serif; */
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;}
 
+        .fa-arrow-right {
+            height: 30px;
+            width: 30px;
+            background: #000;
+            padding: 10px;
+            border-radius: 50%;
+            color: white;
+        }
+    
+        .fa-arrow-right:hover {
+            background: #888484;
+            transition: all 1s;
+        }
+    
+        .fa-circle-dot {
+            color: red;
+            background-color: red;
+            border-radius: 50%;
+        }
+    
+        /* ****************** */
+        /* repition */
+        .ho:hover {
+            color: red;
+        }
+    
+        .anchor {
+            color: #000;
+            text-decoration: none;
+        }
+    
+        .about,
+        .m0 {
+            overflow: hidden;
+        }
+    
+        .tr:hover {
+            transition: 1s all;
+            cursor: pointer;
+            transform: scale(1.09);
+            background-position: right right;
+            overflow: hidden;
+        }
+    
+    
+    
+        .un {
+            background:
+                linear-gradient(to right, transparent, transparent),
+                linear-gradient(to right, rgba(255, 0, 0, 1), rgba(255, 0, 180, 1), rgba(0, 100, 200, 1));
+            background-size: 100% 0.1em, 0 0.1em;
+            background-position: 100% 100%, 0 100%;
+            background-repeat: no-repeat;
+            transition: background-size 400ms;
+        }
 /* awesome */
 /* ****************** */
 
@@ -19,7 +79,11 @@ sans-serif; */
 
 /* 
  */
-
+.cad:hover .un,
+.cad:focus .un {
+    background-origin: content-box;
+    background-size: 0 0.1em, 100% 0.1em;
+    transition: all 1s;}
 a:hover,
 a:focus {
     background-size: 0 0.1em, 100% 0.1em;
@@ -71,7 +135,59 @@ a:focus {
     background-size: 0 0.1em, 100% 0.1em;
     transition: all 2s;
 }
+section {
+    padding: 10px 0;
+}
 
+.butt {
+    outline: none;
+    border: none;
+    background: #000;
+    color: white;
+    width: 150px;
+    height: 70px;
+    margin: .5px;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+header {
+    background-image: url(aserts/fort.webp);
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    z-index: 1000;
+    border-bottom: 2px solid black;
+
+}
+
+.logo {
+    height: 50px;
+
+    width: 170px;
+}
+.butt:hover {
+    background-color: rgb(138, 132, 132);
+    color: #000;
+    transition: all 2s;
+}
+.zindex {
+    position: relative;
+    z-index: 1000;}
+
+
+.overlay {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    opacity: .94;
+    top: 0;
+    left: 0;
+    background: linear-gradient(rgba(255, 255, 255, 0.747), rgb(36, 32, 32));
+}
 
 
 .over {
@@ -104,7 +220,61 @@ a:focus {
     background: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0));
 }
 
+.fa-arrow-right {
+    height: 30px;
+    width: 30px;
+    background: #000;
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+}
 
+.fa-arrow-right:hover {
+    background: #888484;
+    transition: all 1s;
+}
+
+.fa-circle-dot {
+    color: red;
+    background-color: red;
+    border-radius: 50%;
+}
+
+/* ****************** */
+/* repition */
+.ho:hover {
+    color: red;
+}
+
+.anchor {
+    color: #000;
+    text-decoration: none;
+}
+
+.about,
+.m0 {
+    overflow: hidden;
+}
+
+.tr:hover {
+    transition: 1s all;
+    cursor: pointer;
+    transform: scale(1.09);
+    background-position: right right;
+    overflow: hidden;
+}
+
+
+
+.un {
+    background:
+        linear-gradient(to right, transparent, transparent),
+        linear-gradient(to right, rgba(255, 0, 0, 1), rgba(255, 0, 180, 1), rgba(0, 100, 200, 1));
+    background-size: 100% 0.1em, 0 0.1em;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+}
 
 /* header */
 /* *************************** */
