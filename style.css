@@ -1,0 +1,387 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&display=swap');
+
+/* font-family: "Atkinson Hyperlegible Next",
+sans-serif; */
+
+
+/* awesome */
+/* ****************** */
+
+
+.pi {
+    width: 30vw;
+
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+
+/* 
+ */
+
+a:hover,
+a:focus {
+    background-size: 0 0.1em, 100% 0.1em;
+}
+
+
+
+.n1:hover .un,
+.n1:focus .un {
+    background-size: 0 0.1em, 100% 0.1em;
+    transition: all 2s;
+
+}
+
+.car:hover .un,
+.car:focus .un {
+    background-size: 0 0.1em, 100% 0.1em;
+    transition: all 2s;
+
+}
+
+
+.mo:hover .un,
+.mo:focus .un {
+    background-size: 0 0.1em, 100% 0.1em;
+    transition: all 1s;
+}
+
+.m6:hover .un,
+.m6:focus .un {
+    background-size: 0 0.1em, 100% 0.1em;
+    transition: all 1s;
+}
+
+.m7:hover .un,
+.m7:focus .un {
+    background-size: 0 0.1em, 100% 0.1em;
+    transition: all 1s;
+}
+
+.m8:hover .un,
+.m8:focus .un {
+    background-size: 0 0.1em, 100% 0.1em;
+    transition: all 1s;
+}
+
+.n1:hover .overla,
+.n1:focus .overla {
+    background-size: 0 0.1em, 100% 0.1em;
+    transition: all 2s;
+}
+
+
+
+.over {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: .9;
+    top: 0;
+    left: 0;
+    background: linear-gradient(rgba(20, 20, 20, 0.747), rgb(196, 39, 39));
+}
+
+.overl {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: .9;
+    top: 0;
+    left: 0;
+    background: linear-gradient(rgba(255, 255, 255, 0.747), rgb(209, 205, 205));
+}
+
+.overla {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    opacity: .94;
+    top: 0;
+    left: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0), rgb(0, 0, 0));
+}
+
+
+
+/* header */
+/* *************************** */
+
+
+
+/* *************************** */
+/* main */
+/* *************************** */
+.hero-a {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+
+.n2 {
+    background-image: url(aserts/n1.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 50%;
+    position: relative;
+    text-shadow:
+        1px 1px 2px red,
+        0 0 1em blue,
+        0 0 0.2em blue;
+
+
+}
+
+.fo {
+    background-image: url(aserts/111.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+    position: relative;
+
+
+
+}
+
+.n3 {
+    background-image: url(aserts/n2.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 50%;
+    position: relative;
+    text-shadow:
+        1px 1px 2px red,
+        0 0 1em blue,
+        0 0 0.2em blue;
+
+
+}
+
+.n4 {
+
+    background-image: url(aserts/n3.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 50%;
+    position: relative;
+    text-shadow:
+        1px 1px 2px red,
+        0 0 1em blue,
+        0 0 0.2em blue;
+
+
+}
+
+.n5 {
+    background-image: url(aserts/n4.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 50%;
+    position: relative;
+
+    text-shadow:
+        1px 1px 2px red,
+        0 0 1em blue,
+        0 0 0.2em blue;
+
+}
+
+.m6 {
+    background-color: transparent;
+    background-image: url(aserts/11.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+
+    position: relative;
+
+    text-shadow:
+        1px 1px 2px red,
+        0 0 1em blue,
+        0 0 0.2em blue;
+
+}
+
+
+
+
+.m7 {
+
+    background-image: url(aserts/12.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+
+    position: relative;
+
+    text-shadow:
+        1px 1px 2px red,
+        0 0 1em blue,
+        0 0 0.2em blue;
+
+}
+
+.m8 {
+    background-image: url(aserts/1.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+
+    position: relative;
+
+    text-shadow:
+        1px 1px 2px red,
+        0 0 1em blue,
+        0 0 0.2em blue;
+
+}
+
+.m6:hover {
+    transition: 1s all;
+    cursor: pointer;
+    transform: scale(1.05);
+    background-position: right right;
+    position: absolute;
+    height: 100vh;
+    width: 50%;
+    opacity: .95;
+    top: 0;
+    left: 0;
+    background-color: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.363));
+
+
+}
+
+.m7:hover {
+    transition: 1s all;
+    cursor: pointer;
+    transform: scale(1.05);
+    background-position: center center;
+    position: absolute;
+    height: 100vh;
+    width: 50%;
+    opacity: .95;
+    top: 0;
+    left: 0;
+    background-color: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.363));
+    overflow: hidden;
+
+}
+
+.m8:hover {
+    transition: 1s all;
+    cursor: pointer;
+    transform: scale(1.05);
+    background-position: center center;
+    position: absolute;
+    height: 100vh;
+    width: 50%;
+    opacity: .95;
+    top: 0;
+    left: 0;
+    background-color: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.363));
+    overflow: hidden;
+
+}
+
+.n1:hover {
+    transition: 1s all;
+    cursor: pointer;
+    transform: scale(1.05);
+    background-position: center center;
+
+
+}
+
+.d {
+
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    /* Optional: for a subtle slide-in effect */
+    transform: translateY(10px);
+}
+
+.n1:hover .d {
+    /* Hover state */
+    opacity: 1;
+    height: 22%;
+    transform: translateY(0px) !important;
+    transition: all 2s !important;
+    visibility: visible;
+    /* Optional: reset transform */
+}
+
+
+
+
+.ice {
+    object-fit: cover;
+}
+
+.mo:hover .ice {
+    transition: 1s all;
+    cursor: pointer;
+    transform: scale(1.09);
+    background-position: right right;
+    overflow: hidden;
+}
+
+
+
+.cad {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+}
+
+.cad1 {
+
+    background-image: url(aserts/menu1.webp);
+}
+
+.cad2 {
+
+    background-image: url(aserts/menu2.webp);
+}
+
+.cad3 {
+
+    background-image: url(aserts/menu3.webp);
+}
+
+.cad4 {
+
+    background-image: url(aserts/menu4.webp);
+}
+
+.cad5 {
+
+    background-image: url(aserts/menu5.webp);
+}
+
+.cad6 {
+
+    background-image: url(aserts/menu6.webp);
+}
+
+/* *************************** */

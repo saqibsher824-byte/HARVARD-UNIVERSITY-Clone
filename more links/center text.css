@@ -1,0 +1,72 @@
+.bg {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    z-index: 1000;
+    border-bottom: 2px solid black;
+    background: linear-gradient(180deg, hsla(0, 0%, 5%, 0) 29.9%, #0e0e0e);
+
+}
+
+.overla {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    opacity: .6;
+    top: 0;
+    left: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.747), rgb(36, 32, 32));
+}
+
+.overla:hover {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    opacity: .7;
+    top: 0;
+    left: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.647),rgba(0, 0, 0, 0.947));
+}
+
+.n4 {
+
+    background-image: url(../images/a.1.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    width: 50%;
+    position: relative;
+    text-shadow:
+        1px 1px 2px red,
+        0 0 1em blue,
+        0 0 0.2em blue;
+
+
+}
+
+.n1:hover {
+    transition: 1s all;
+    cursor: pointer;
+    transform: scale(1.05);
+    background-position: right right;
+
+
+}
+
+.d {
+
+    visibility: hidden;
+    opacity: 0;
+    height: 0;
+    transform: translateY(10px);
+}
+
+.n1:hover .d {
+    /* Hover state */
+    opacity: 1;
+    height: 22%;
+    transform: translateY(0px) !important;
+    transition: all 2s !important;
+    visibility: visible;
+}
